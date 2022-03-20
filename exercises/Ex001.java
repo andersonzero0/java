@@ -16,6 +16,8 @@ public class Ex001 {
         
         String nome;
         
+        System.out.println("* --- Bem-vindo(a) --- *\n");
+        System.out.println("Banco de Dados:\n-Steve\n-John\n-Alice\n-Jack\n");
         System.out.println("+------------------------+");
         System.out.println("Digite o nome da pessoa: ");
         nome = ler.next();
@@ -23,21 +25,25 @@ public class Ex001 {
         
         switch(nome) {
             case "steve":
+            case "Steve":
                 System.out.println(steve + "\n");
                 System.out.println("+------------------------+");
                 break;
                 
             case "john":
+            case "John":
                 System.out.println(john + "\n");
                 System.out.println("+------------------------+");
                 break;
                 
             case "alice":
+            case "Alice":
                 System.out.println(alice + "\n");
                 System.out.println("+------------------------+");
                 break;
                 
             case "jack":
+            case "Jack":
                 System.out.println(jack + "\n");
                 System.out.println("+------------------------+");
                 break;
